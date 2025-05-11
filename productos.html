@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author" content="4D">
+    <meta name="description" content="Pagina Web de los productos del restaurante 4D"> 
+    <meta name="keywords" content="pizza, delivery, comida, restaurante">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title> Productos | 4D</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/4D Logo.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Mono:ital,wght@1,600&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/4D Logo.png" width="50" alt="Logo de la marca">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="carta.html">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Delivery.html">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Registrarse.html">Registrarse</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="productos">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 columna-izquierda-arriba">
+            <h2 class="titulos letra-blanca">Aprende a Cocinar</h2>
+            <p class="parrafos letra-blanca">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida quis orci eget pharetra. In eleifend bibendum massa, viverra blandit odio malesuada volutpat. Nunc at sapien in dolor dictum tincidunt ut nec nisi. Praesent sagittis lorem et lacus luctus, at dapibus magna malesuada. Donec eleifend, nibh posuere pellentesque feugiat, diam neque efficitur eros, eget tristique ligula elit ut nulla. Ut accumsan risus ac risus laoreet, nec interdum lectus tempus.</p>
+            <button type="button" class="btn btn-danger">Comienza a Cocinar</button>
+            <h2 class="titulos letra-blanca">Producto de Moda</h2>
+            <p class="parrafos letra-blanca">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida quis orci eget pharetra. In eleifend bibendum massa, viverra blandit odio malesuada volutpat. Nunc at sapien in dolor dictum tincidunt ut nec nisi. Praesent sagittis lorem et lacus luctus, at dapibus magna malesuada. Donec eleifend, nibh posuere pellentesque feugiat, diam neque efficitur eros, eget tristique ligula elit ut nulla. Ut accumsan risus ac risus laoreet, nec interdum lectus tempus.</p>
+            <button type="button" class="btn btn-danger">Más Información</button>
+          </div>
+          <div class="col-12 col-lg-8 columna-derecha-abajo"> 
+            <div class="contenedor-imaganes">
+              <!--Carrusel-->
+              <div id="productos-carousel" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#productos-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#productos-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="carousel-imagen" src="imagenes/salsas-frascos-vidrio.jpg" class="d-block w-100" alt="Salsas en frascos">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nuestras Salsas</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="carousel-imagen" src="imagenes/Harina2.jpg" class="d-block w-100" alt="Harina de Trigo">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nuestras Harinas</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productos-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productos-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="contenedor-parrafos">
+              <div class="contenedor-parrafos">
+                <h4 class="titulos">Nuestros Productos</h4>
+                <p>Aenean ultricies libero eu ante commodo vulputate. Praesent sed tortor a felis dapibus ultricies. Cras in metus sed elit condimentum fermentum. Phasellus elit augue, ultrices eget nisl posuere, commodo semper nulla. Morbi hendrerit sapien ornare mauris suscipit, quis ullamcorper justo imperdiet. Suspendisse vulputate lacus sit amet euismod consequat. Ut malesuada odio sit amet tempor commodo. In in molestie sapien, feugiat tempus mi.</p>
+              </div>
+            </div>
+            <div class="container contenedor-productos">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h4 class="titulos">Salsas</h4>
+                  <p>Aenean ultricies libero eu ante commodo vulputate. Praesent sed tortor a felis dapibus ultricies. Cras in metus sed elit condimentum fermentum. Phasellus elit augue, ultrices eget nisl posuere, commodo semper nulla. Morbi hendrerit sapien ornare mauris suscipit, quis ullamcorper justo imperdiet. Suspendisse vulputate lacus sit amet euismod consequat. Ut malesuada odio sit amet tempor commodo. In in molestie sapien, feugiat tempus mi.</p>
+                  <button type="button" class="btn btn-danger">Más Salsas</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img class="imagen-productos" src="imagenes/Salsa de Tomate.jpg" alt="Frasco con Salsa de Tomate">
+                </div>
+              </div>
+            </div>
+            <div class="container contenedor-productos">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <h4 class="titulos">Harinas</h4>
+                  <p>Aenean ultricies libero eu ante commodo vulputate. Praesent sed tortor a felis dapibus ultricies. Cras in metus sed elit condimentum fermentum. Phasellus elit augue, ultrices eget nisl posuere, commodo semper nulla. Morbi hendrerit sapien ornare mauris suscipit, quis ullamcorper justo imperdiet. Suspendisse vulputate lacus sit amet euismod consequat. Ut malesuada odio sit amet tempor commodo. In in molestie sapien, feugiat tempus mi.</p>
+                  <button type="button" class="btn btn-danger">Más Harinas</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img class="imagen-productos" src="imagenes/Harinas.jpg" alt="Harina en sacos">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Pie de Pagina (Footer)-->
+    <footer class="seccion-roja d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes/4D Logo.png" alt="Logo de la Empresa">
+      <p class="footer-texto text-center letra-blanca">Pizza, Pizza y Más Pizza<br>Ven a Comerla o Hazla en tu Casa con Nosotros</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap aling-items-center justify-content-center">
+        <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://www.rappi.com.mx/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-bicycle"></i>
+        </a>
+        <a href="mailto:danielitoarape17@hotmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>        
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Daniel Arapé (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
